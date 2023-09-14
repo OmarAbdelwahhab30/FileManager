@@ -1,6 +1,6 @@
 {
     "name": "omarabdulwahhab/filemanager",
-    "description": "A comprehensive software package designed to streamline the management of application files, offering efficient storage, deletion, and file handling capabilities.",
+    "description": "A simple software package designed to streamline the management of application files, offering efficient storage, deletion, and file handling capabilities.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
