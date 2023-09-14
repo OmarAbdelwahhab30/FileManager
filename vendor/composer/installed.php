@@ -3,7 +3,7 @@
         'name' => 'omarabdulwahhab/filemanager',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ac16a77e849089b5053a8dae7c146eba33799bfd',
+        'reference' => '661b92ebbacf118aab796c45c33b99446de08354',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'omarabdulwahhab/filemanager' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ac16a77e849089b5053a8dae7c146eba33799bfd',
+            'reference' => '661b92ebbacf118aab796c45c33b99446de08354',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
