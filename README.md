@@ -126,6 +126,6 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- [OmarAbulwahhab](https://github.com/OmarAbdelwahhab30) 
+- [OmarAbdulwahhab](https://github.com/OmarAbdelwahhab30) 
 
 Your support and contributions are greatly appreciated!
