@@ -92,15 +92,15 @@ class FileManager
 
     private function moveFile($file, string $dirName = ''): bool|string
     {
-        $fileName = time() . "_" . str_replace('-', '_', $file[array_key_first($file)]->getClientOriginalName());
+        $fileName = time() . "_" . str_replace('-', '_', $file->getClientOriginalName());
         if (!$this->link) {
 
-            $file[array_key_first($file)]->move(storage_path($dirName), $fileName);
+            $file->move(storage_path($dirName), $fileName);
 
         } else {
 
             Artisan::call("storage:link");
-            $file[array_key_first($file)]->move(public_path("storage/" . $dirName), $fileName);
+            $file->move(public_path("storage/" . $dirName), $fileName);
 
         }
         return $fileName;
