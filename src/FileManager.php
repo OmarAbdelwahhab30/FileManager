@@ -94,7 +94,7 @@ class FileManager
     {
         $fileName = time() . "_" . str_replace('-', '_', $file[array_key_first($file)]->getClientOriginalName());
         if (!$this->link) {
-            $file->move(storage_path($dirName), $fileName);
+            $file[array_key_first($file)]->move(storage_path($dirName), $fileName);
         } else {
             Artisan::call("storage:link");
             $file[array_key_first($file)]->move(public_path("storage/" . $dirName), $fileName);
