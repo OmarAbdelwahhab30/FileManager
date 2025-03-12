@@ -63,9 +63,9 @@ class FileManager
      * @param string $path
      * @return bool
      */
-    public function deleteFileFromPublicPath(string $filename, string $path = 'storage'): bool
+    public function deleteFileFromPublicPath(string $filename, string $path = ''): bool
     {
-        if (unlink(public_path($path . DIRECTORY_SEPARATOR . $filename))) {
+        if (unlink(public_path('storage' . DIRECTORY_SEPARATOR . $path . DIRECTORY_SEPARATOR . $filename))) {
             return true;
         }
         return false;
